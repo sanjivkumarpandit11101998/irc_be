@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include irc_be *.css
+recursive-include irc_be *.csv
+recursive-include irc_be *.html
+recursive-include irc_be *.ico
+recursive-include irc_be *.js
+recursive-include irc_be *.json
+recursive-include irc_be *.md
+recursive-include irc_be *.png
+recursive-include irc_be *.py
+recursive-include irc_be *.svg
+recursive-include irc_be *.txt
+recursive-exclude irc_be *.pyc
